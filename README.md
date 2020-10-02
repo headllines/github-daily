@@ -6,7 +6,7 @@
 
 Top posts are stored in [issues](https://github.com/headllines/github-daily/issues). You can subscribe by [watching this repo](#how-does-it-work) or via [RSS](https://feeds.pub/feed/http%3A%2F%2Frsshub.app%2Fgithub%2Fissue%2Fheadllines%2Fgithub-daily)
 
-Email and other ways to subscirbe updates are still under development, you can join [the mailing list](https://headllines.com) to get notified.
+Email and other ways to subscribe updates are still under development, you can join [the mailing list](https://headllines.com) to get notified.
 
 ## How does it work
 
@@ -18,6 +18,7 @@ Email and other ways to subscirbe updates are still under development, you can j
 
 ## Thanks
 
+- [github-trending-api](https://github.com/huchenme/github-trending-api) to get trending repos daily/weekly/monthly
 - [Feeds.Pub](https://feeds.pub) for hosting the RSS feed
 - [RSSHub](https://github.com/diygod/rsshub) for generating RSS file from issues
 - [github-trending-repos](https://github.com/vitalets/github-trending-repos) for inspariation
