@@ -1,4 +1,4 @@
-name: hackernews-daily-top
+name: github-daily-top
 
 on:
   schedule:
