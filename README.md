@@ -26,7 +26,7 @@ Email and other ways to subscribe updates are still under development, you can j
 ## Related headline collectors
 
 - [GitHub Weekly](https://github.com/headllines/github-weekly)
-- [GitHub News Monthly](https://github.com/headllines/github-monthly)
+- [GitHub Monthly](https://github.com/headllines/github-monthly)
 
 ## Contribute
 
