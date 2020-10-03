@@ -10,7 +10,7 @@ const getHeadlines = async () => {
       .map((obj, i) => {
         let { author, name, url, description, stars, forks, currentPeriodStars, language} = obj;
 
-        return `${i + 1}. [**${author}/${name}**: ${description}](${url})
+        return `${i + 1}. [**${author}/${name}**${description ? ': ' + description : ''}](${url})
 ${currentPeriodStars} stars today | ${stars} stars | ${forks} forks ${language ? '| ' + language : ''}
 
 `;
