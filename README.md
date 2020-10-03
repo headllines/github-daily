@@ -4,17 +4,22 @@
 
 ## How to subscribe
 
-Top posts are stored in [issues](https://github.com/headllines/github-daily/issues). You can subscribe by [watching this repo](#how-does-it-work) or via [RSS](https://feeds.pub/feed/http%3A%2F%2Frsshub.app%2Fgithub%2Fissue%2Fheadllines%2Fgithub-daily)
+Top repos are stored in [issues](https://github.com/headllines/github-daily/issues). You can subscribe by [watching this repo](#how-does-it-work) or via [RSS](https://feeds.pub/feed/http%3A%2F%2Frsshub.app%2Fgithub%2Fissue%2Fheadllines%2Fgithub-daily)
 
 Email and other ways to subscribe updates are still under development, you can join [the mailing list](https://headllines.com) to get notified.
 
 ## How does it work
 
-1. A script fetches top posts on github every day
+1. A script fetches top repos on github every day
 2. It opens an issue on this repo and store the headlines
 3. People can subscribe to new issue by watching this repo or via [RSS](https://feeds.pub/feed/http%3A%2F%2Frsshub.app%2Fgithub%2Fissue%2Fheadllines%2Fgithub-daily)
 
 <img src="https://timqian-imgs.s3.ap-southeast-1.amazonaws.com/2020-09-Screen%20Shot%202020-09-01%20at%205.15.54%20PM.png" alt="github daily" width="400"/>
+
+## Related headline collectors
+
+- [GitHub Weekly](https://github.com/headllines/github-weekly)
+- [GitHub Monthly](https://github.com/headllines/github-monthly)
 
 ## Thanks
 
@@ -22,11 +27,6 @@ Email and other ways to subscribe updates are still under development, you can j
 - [Feeds.Pub](https://feeds.pub) for hosting the RSS feed
 - [RSSHub](https://github.com/diygod/rsshub) for generating RSS file from issues
 - [github-trending-repos](https://github.com/vitalets/github-trending-repos) for inspiration
-
-## Related headline collectors
-
-- [GitHub Weekly](https://github.com/headllines/github-weekly)
-- [GitHub Monthly](https://github.com/headllines/github-monthly)
 
 ## Contribute
 
