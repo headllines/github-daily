@@ -3,7 +3,7 @@ const axios = require('axios');
 const getHeadlines = async () => {
   console.log('start fetching headlines')
   try {
-    const res = await axios.get(`https://gtrend.yapie.me/repositories?&since=daily`);
+    const res = await axios.get(`https://github-trending-api.waningflow.com/repositories?since=daily`);
     const top10Objs = res.data.slice(0, 10);
     // console.log(top10Objs)
     const contents = top10Objs
