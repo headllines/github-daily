@@ -12,7 +12,7 @@ const getHeadlines = async () => {
         let { repo, repo_link, desc, stars, forks, added_stars, lang} = obj;
 
         return `${i + 1}. [**${repo}**${desc ? ': ' + desc : ''}](${repo_link})
-${added_stars} stars today | ${stars} stars | ${forks} forks ${lang ? '| ' + lang : ''}
+${added_stars} | ${stars} stars | ${forks} forks ${lang ? '| ' + lang : ''}
 
 `;
       }).join('');
