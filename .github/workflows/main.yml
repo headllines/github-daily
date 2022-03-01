@@ -1,6 +1,7 @@
 name: github-daily-top
 
 on:
+  workflow_dispatch:
   schedule:
   - cron: "1 0 * * *"
 
