@@ -29,6 +29,7 @@ Email and other ways to subscribe updates are still under development, you can j
 
 ## Thanks
 
+- [doforce/github-trending](https://github.com/doforce/github-trending) to get trending repos daily/weekly/monthly
 - [github-trending-api](https://github.com/huchenme/github-trending-api) to get trending repos daily/weekly/monthly
 - [Feeds.Pub](https://feeds.pub) for hosting the RSS feed
 - [RSSHub](https://github.com/diygod/rsshub) for generating RSS file from issues
