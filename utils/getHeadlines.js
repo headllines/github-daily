@@ -16,8 +16,10 @@ ${added_stars} | ${stars} stars | ${forks} forks ${lang ? '| ' + lang : ''}
 
 `;
       }).join('');
-    console.log(contents);
-    return contents;
+
+        return `${contents}
+<p  align="right"><a href="https://github.com/sponsors/timqian"> <i>❤️ Sponsor the author</i></a> </p>
+`;
   } catch (error) {
     console.log(error);
     throw error
